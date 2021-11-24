@@ -1,14 +1,15 @@
+import { Box } from '@mui/system';
 import LandingHeader from '../components/LandingHeader';
-import layout from '../Landing.module.css'
+import layout from '../styles/Landing.module.css'
 
 const user = () => {
     return ( 
         <>
             <LandingHeader/>
-            <div className={layout.landingLayout}>
+            <Box>
                 
                 
-            </div>
+            </Box>
         </> 
      );
 }

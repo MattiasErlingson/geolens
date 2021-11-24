@@ -1,12 +1,18 @@
 .landingLayout {
-    margin: 100px;
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
+    display: "flex";
+    justify-content: "center";
+    padding-top: "100px";
+    background-color: "#f8f8f8";
 }
 
 .row {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+}
+
+.box {
+    display: flex; /* establish flex container */
+    justify-content: center; /* center flex items horizontally, in this case */
+    align-items: center; /* center flex items vertically, in this case */
 }

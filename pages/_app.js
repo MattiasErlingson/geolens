@@ -19,9 +19,6 @@ export default function MyApp(props) {
       <Head>
         <title>GeoLens</title>
         <meta name="viewport" content="initial-scale=1, width=device-width" />
-        <script async
-          src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDXgbejuXrfaTZ2LS-w-GIMZzP8ibLH6-Y&callback=initMap">
-        </script>
         <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
       </Head>
       <ThemeProvider theme={theme}>
