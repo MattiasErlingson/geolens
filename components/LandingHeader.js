@@ -8,7 +8,7 @@ import { IconButton } from '@mui/material';
 import { ArrowBackOutlined, LogoutOutlined } from '@mui/icons-material';
 import Link from "next/link";
 
-const Header = () => {
+const LandingHeader = () => {
     return ( 
         <Box sx={{ flexGrow: 1 }}>
         <AppBar position="static" elevation={0} sx={{backgroundColor: "transparent"}}>
@@ -26,14 +26,10 @@ const Header = () => {
             <Typography variant="h6" component="div" sx={{ flexGrow: 1, color: "#404244"}}>
               GeoLens
             </Typography>
-            <Button style={{color: "#404244", marginRight: "30px"}}>Om</Button>
-            <Button style={{color: "#404244", marginRight: "30px"}}>Hjälp</Button>
-            <Button style={{color: "#404244", marginRight: "30px"}}>Kontakt</Button>
-            <Button variant="outlined" style={{color: "#404244"}}> Logga ut <LogoutOutlined/></Button>
           </Toolbar>
         </AppBar>
       </Box>
      );
 }
  
-export default Header;
+export default LandingHeader;

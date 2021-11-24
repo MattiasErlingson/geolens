@@ -1,8 +1,10 @@
 
 import { Box, Typography, Paper, TextField, Button, IconButton, Popover } from "@mui/material"
-import { PlaceOutlined, DescriptionOutlined, InsertPhotoOutlined, LibraryMusicOutlined, MapOutlined } from "@mui/icons-material";
-import MapSelector from "./MapSelector";
+import { InsertPhotoOutlined, LibraryMusicOutlined, MapOutlined } from "@mui/icons-material";
 import * as React from "react";
+
+/* Currently not used on website: should be used with customer login to
+   add a new location */
 
 const LocationForm = () => {
     const [anchorEl, setAnchorEl] = React.useState(null);
@@ -14,7 +16,6 @@ const LocationForm = () => {
     const handleClose = () => {
         setAnchorEl(null);
     };
-
 
     const open = Boolean(anchorEl);
     const id = open ? 'simple-popover' : undefined;

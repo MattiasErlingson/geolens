@@ -1,0 +1,12 @@
+.landingLayout {
+    margin: 100px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
