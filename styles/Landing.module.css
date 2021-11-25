@@ -8,11 +8,14 @@
 .row {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    align-items: center;
+    justify-content: space-around;
+    margin-bottom: 60px;
 }
 
 .box {
     display: flex; /* establish flex container */
     justify-content: center; /* center flex items horizontally, in this case */
     align-items: center; /* center flex items vertically, in this case */
+    max-width: 50%;
 }
