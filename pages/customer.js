@@ -104,7 +104,7 @@ const customer = () => {
                     <Box maxWidth="40%">
                         <Typography variant="h4">Steg 2</Typography>
                         <Typography variant="h6">
-                            Klicka på "Lägg till ny intressepunkt"
+                            Klicka på lägg till ny intressepunkt
                         </Typography>
                     </Box>
                 </div>
