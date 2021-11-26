@@ -26,10 +26,10 @@ const Homepage = () => {
           , ljud eller AR genom appen. 
         </Typography>
         <div className={homeStyle.buttonGroup}>
-          <Link href="/customer">
+          <Link href="/customer" passHref>
             <Button variant="outlined" sx={{marginRight: "20px", width: "220px", height: "50px"}}>Testa som kund</Button>
           </Link>
-          <Link href="/user">
+          <Link href="/user" passHref>
             <Button variant="contained" sx={{width: "220px", height: "50px"}}>
               Testa som användare
             </Button>

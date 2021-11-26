@@ -4,6 +4,7 @@ import CssBaseline from '@mui/material/CssBaseline';
 import { CacheProvider } from '@emotion/react';
 import createEmotionCache from '../styles/createEmotionCache';
 
+
 import "/styles/globals.css";
 import theme from '../styles/theme';
 
@@ -19,7 +20,6 @@ export default function MyApp(props) {
       <Head>
         <title>GeoLens</title>
         <meta name="viewport" content="initial-scale=1, width=device-width" />
-        <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
       </Head>
       <ThemeProvider theme={theme}>
         {/* CssBaseline kickstart an elegant, consistent, and simple baseline to build upon. */}

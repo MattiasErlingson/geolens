@@ -17,7 +17,7 @@ const LandingHeader = () => {
             marginRight: "70px", 
             marginLeft: "70px",
             }}>
-            <Link href="/">     
+            <Link href="/" passHref>     
                 <IconButton
                     size="large"
                     edge="start"
