@@ -21,8 +21,12 @@ const customer = () => {
                 <Typography variant="h3" sx={{ marginBottom: "20px" }}>Genomgång av produkt</Typography>
                 <Typography variant="h5" sx={{ marginBottom: "50px" }}>- Från kundens perspektiv</Typography>
                 <Typography variant="subtitle1" sx={{ marginBottom: "50px" }}>
-                    Geolens arbetar för att göra det enklare för kommuner och regioner att tillgängliggöra och sprida information
-                    om kultur, natur och historia i närområdet. Ni (kunderna) skapar intressepunkter.... fortsätt skriva intro.
+                    Geolens arbetar för att göra det enklare för kommuner, regioner och företag att tillgängliggöra och sprida information
+                    om kultur, natur och historia i närområdet. Genom tjänsten lägger ni enkelt till intressepunkter och knyter information i form 
+                    av text, ljud, bild och video till den. Samtidigit har ni möjlighet att märka innehåll som är funktionsanpassat och därmed göra det enklare
+                    för människor med särskilda behov att få tillgång till informationen. 
+                    Det ska vara enkelt för er att underhålla och analysera er data, och ännu enklare för invånarna att upptäcka dom. Resultatet är att ni når ut
+                    och invånarna lär sig och blir mer delaktiga i kulturarbetet.
                 </Typography>
                 <Divider sx={{marginBottom: "50px"}}/>
                 <Typography variant="h4" style={{fontWeight: "600"}} sx={{ marginBottom: "20px"}}>Registrering</Typography>

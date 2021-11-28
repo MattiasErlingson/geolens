@@ -111,7 +111,7 @@ const user = () => {
                     <Box maxWidth="40%">
                         <Typography variant="h4">Steg 2</Typography>
                         <Typography variant="h6">
-                            Du tar upp appen och får välja mellan att 
+                            Du tar upp appen kan välja mellan att få mer information genom att klicka på kartan eller skanna en QR-kod på plats.
                         </Typography>
                     </Box>
                 </div>
@@ -119,19 +119,40 @@ const user = () => {
                     <Box maxWidth="40%">
                         <Typography variant="h4">Steg 3</Typography>
                         <Typography variant="h6">
-                            Ange plats på kartan eller address där användarna hittar intressepunkten
+                            Direkt får du upp en intressant beskrivning av byggnaden och där finns även video, bilder och ljudklipp
+                            där byggnaden beskrivs mer genomgående.
                         </Typography>
                     </Box>
+                    <div className={layout.row}>
                     <lottie-player 
-                        src="https://assets10.lottiefiles.com/packages/lf20_bOWm9q.json"  
+                        src="https://assets5.lottiefiles.com/temp/lf20_jJxas0.json"  
                         background="transparent"  
                         speed="0.5"  
-                        style={{width: "300px", height: "300px"}}  
+                        style={{width: "80px", height: "80px", marginRight: "10px"}}  
+                        loop autoplay></lottie-player> 
+                    <lottie-player 
+                        src="https://assets7.lottiefiles.com/packages/lf20_ehfMXK.json"  
+                        background="transparent"  
+                        speed="1"  
+                        style={{width: "80px", height: "80px", marginRight: "10px"}}  
                         loop autoplay></lottie-player>
+                    <lottie-player 
+                        src="https://assets7.lottiefiles.com/packages/lf20_GZxjzF.json"  
+                        background="transparent"  
+                        speed="0.5"  
+                        style={{width: "80px", height: "80px", marginRight: "10px"}}  
+                        loop autoplay></lottie-player>
+                    <lottie-player 
+                        src="https://assets7.lottiefiles.com/packages/lf20_S6kNOp.json"  
+                        background="transparent"  
+                        speed="0.5"  
+                        style={{width: "100px", height: "100px"}}  
+                        loop autoplay></lottie-player>
+                    </div>
                 </div>
                 <div className={layout.row}>
                 <lottie-player 
-                        src="https://assets5.lottiefiles.com/temp/lf20_jJxas0.json"  
+                        src="https://assets6.lottiefiles.com/packages/lf20_ptfmt0ts.json"  
                         background="transparent"  
                         speed="0.5"  
                         style={{width: "150px", height: "150px"}}  
@@ -139,7 +160,8 @@ const user = () => {
                     <Box maxWidth="40%">
                         <Typography variant="h4">Steg 4</Typography>
                         <Typography variant="h6">
-                            Ange namn och beskrivning i formuläret
+                            Du väljer videoklippet och lär dig massor! Samtidigt checkar du in för att logga din aktivitet och 
+                            tipsa vänner om platsen. 
                         </Typography>
                     </Box>
                 </div>
@@ -147,20 +169,20 @@ const user = () => {
                     <Box maxWidth="40%">
                         <Typography variant="h4">Steg 5</Typography>
                         <Typography variant="h6">
-                            Ladda upp bilder, videos eller ljudfiler för att ge användarna olika sätt att
-                            uppleva innehållet.
+                            Samtidigt tjänar du poäng för varje besökt plats och kan tävla mot andra användare. Här finns det möjlighet
+                            att vinna fina priser om man är en flitig upptäckare.
                         </Typography>
                     </Box>
                     <lottie-player 
-                        src="https://assets10.lottiefiles.com/packages/lf20_g3dzz0wz.json"  
+                        src="https://assets1.lottiefiles.com/private_files/lf30_x3xhibxx.json"  
                         background="transparent"  
-                        speed="1"  
-                        style={{width: "400px", height: "400px"}}  
+                        speed="0.5"  
+                        style={{width: "150px", height: "150px"}}  
                         loop autoplay></lottie-player>
                 </div>
                 <div className={layout.row}>
                 <lottie-player 
-                        src="https://assets10.lottiefiles.com/packages/lf20_3Dymt9.json"  
+                        src="https://assets2.lottiefiles.com/packages/lf20_WAMQ5G.json"  
                         background="transparent"  
                         speed="1"  
                         style={{width: "300px", height: "300px"}}  
@@ -168,38 +190,7 @@ const user = () => {
                     <Box maxWidth="40%">
                         <Typography variant="h4">Steg 6</Typography>
                         <Typography variant="h6">
-                            Publicera! Nu kan invånare och turister ta del av innehållet
-                            genom mobilen. 
-                        </Typography>
-                    </Box>
-                </div>
-                <div className={layout.row}>
-                    <Box maxWidth="40%">
-                        <Typography variant="h4">Steg 7</Typography>
-                        <Typography variant="h6">
-                            Det genereras en QR-kod för intressepunkten som du kan skriva ut och
-                            placera i anslutning till intressepunkten. 
-                        </Typography>
-                    </Box>
-                    <lottie-player 
-                        src="https://assets5.lottiefiles.com/packages/lf20_ksovfkm5.json"  
-                        background="transparent"  
-                        speed="1"  
-                        style={{width: "300px", height: "300px"}}  
-                        loop autoplay></lottie-player>
-                </div>
-                <div className={layout.row}>
-                <lottie-player 
-                        src="https://assets9.lottiefiles.com/packages/lf20_utwymwab.json"  
-                        background="transparent"  
-                        speed="0.5"  
-                        style={{width: "300px", height: "300px"}}  
-                        loop autoplay></lottie-player>
-                    <Box maxWidth="40%">
-                        <Typography variant="h4">Steg 8</Typography>
-                        <Typography variant="h6">
-                            I er profil kan du enkelt ändra och uppdatera redan skapade intressepunkter.
-                            Där finns det även möjlighet att se statistik över antalet besökare och mycket mera.
+                            Nöjd går du vidar mot nya äventyr, alltid med vetskapen om att nya lärdomar bara är ett klick bort.
                         </Typography>
                     </Box>
                 </div>
@@ -211,7 +202,7 @@ const user = () => {
                     med era behov. Tack!
                 </Typography>
                 <Button 
-                    href="https://docs.google.com/forms/d/e/1FAIpQLSedm8J3A7xCx8PxTEL-6ahD-mL8zxg02JaZdq5-QcupA846sg/viewform?usp=sf_link"
+                    href="https://docs.google.com/forms/d/e/1FAIpQLSfeSmUZSO8cebDpMobzgXFV1YSCBqiKUDao8dw-eXDy4KRqHA/viewform?usp=sf_link"
                     color="secondary" 
                     variant="contained" 
                     sx={{marginTop: "50px", width: "200px", height: "50px"}}>
