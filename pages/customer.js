@@ -6,9 +6,6 @@ import layout from '../styles/Landing.module.css'
 
 const customer = () => {
 
-    const col1 = "#FC466B";
-    const col2 = "#3F5EFB";
-
     return (
         <>
         <LandingHeader/>
